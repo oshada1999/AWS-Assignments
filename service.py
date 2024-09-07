@@ -4,8 +4,8 @@ app = Flask(__name__)
 
 @app.route('/data', methods=['GET'])
 def exchange_crypto():
-    lala_sample = {"lala": "ABCDEFGH"}
-    return jsonify(lala_sample)
+    lala_sample = {"example": "ABCDEFGH"}
+    return jsonify(example_sample)
 
 @app.route('/test_api', methods=['GET'])
 def test_api():
